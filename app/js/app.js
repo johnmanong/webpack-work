@@ -1,4 +1,7 @@
-var msg = require('./message.js');
+import React from "react";
+import Greeting from "./greeting";
 
-document.write(msg.msg);
-
+React.render(
+  <Greeting name="World"/>,
+  document.body
+);
