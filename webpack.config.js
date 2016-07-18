@@ -2,7 +2,7 @@ module.exports = {
   context: __dirname + "/app",
 
   entry: {
-    javascript: "./js/app.js",
+    javascript: "./js/app.jsx",
     html: "./index.html",
   },
 
@@ -14,7 +14,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx$/,
         exclude: /node_modules/,
         loader: "babel-loader",
         query: {
