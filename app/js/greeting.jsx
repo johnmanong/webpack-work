@@ -1,10 +1,11 @@
 import React from "react";
+import css from './greeting.scss'
 
 export default React.createClass({
   render: function() {
     return (
-      <div className="greeting">
-        Hello, {this.props.name}!
+      <div className={css.message}>
+        Hello2, {this.props.name}!
       </div>
     );
   },

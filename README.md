@@ -1,5 +1,5 @@
 # Notes
-
+## setup
 - VPN would not let me connect to github, SIGH
 - used this thoughtbot article to setup webpack, babel, react
   - https://robots.thoughtbot.com/setting-up-webpack-for-react-and-hot-module-replacement
@@ -14,3 +14,14 @@
 - getting a render error, might switch to this tutorial
 https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
 - ok using both things are compiling, going to move mount from body to a div, since react says no.
+
+- ok everything seems to be running atm
+  - http://localhost:8080/webpack-dev-server/
+
+- going to add css modules bc you know shits lit
+  - sassy refresher: http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32
+  - so many installs: sass-loader, url-resolve-loader
+  - helpful:http://stackoverflow.com/questions/34443827/sass-with-css-modules-webpack
+
+
+## development

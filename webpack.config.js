@@ -25,6 +25,18 @@ module.exports = {
         test: /\.html$/,
         loader: "file?name=[name].[ext]",
       },
+      {
+        test: /\.scss$/,
+        loader: 'style!css?modules&sourceMap&localIdentName=[local]___[hash:base64:5]!resolve-url!sass?outputStyle=expanded&sourceMap'
+      },
+      {
+        test: /\.png$/,
+        loader: "url-loader?limit=100000"
+      },
+      {
+        test: /\.jpg$/,
+        loader: "file-loader"
+      }
     ],
   },
 }

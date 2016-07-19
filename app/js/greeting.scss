@@ -1,0 +1,9 @@
+$break-small: 320px;
+
+.message {
+  color: red;
+
+  @media screen and (max-width: $break-small) {
+    color: blue;
+  }
+}
