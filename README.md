@@ -24,4 +24,9 @@ https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-ba
   - helpful:http://stackoverflow.com/questions/34443827/sass-with-css-modules-webpack
 
 
+### Summary
+- overall this took about an hour to setup. I had a real rough project boilerplate, but used a series of tutorials and google to get things setup.
+- in the end we have react, weback, scss/css modules, so it's a pretty good dev setup
+
+
 ## development
